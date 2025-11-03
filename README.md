@@ -1,1 +1,1 @@
-Examples to illustrate basic feautures of the C++ language
+Examples to illustrate basic features of the C++ language
