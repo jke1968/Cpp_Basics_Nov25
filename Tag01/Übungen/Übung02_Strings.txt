@@ -1,0 +1,12 @@
+Übung 02 Strings
+================
+
+Schreiben Sie ein Programm, das beliebig viele Namen vom Benutzer einliest und zwei Prüfungen durchführt:
+
+1. Handelt es sich bei dem String um ein Palindrom?
+2. Beinhaltet der String den Teilstring "anna"?
+
+
+
+
+
