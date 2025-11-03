@@ -1,0 +1,6 @@
+Übung 01 Referenzen
+===================
+
+Schreiben Sie ein C++-Programm, das zwei int-Zahlen vom Benutzer einliest, und dann eine Funktion aufruft, die zwei int-Zahlen als Parameter akzeptiert und deren Inhalte vertauscht. 
+
+Verwenden Sie dabei keine Pointer. 
