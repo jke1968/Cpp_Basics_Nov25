@@ -1,0 +1,15 @@
+Übung 03 - Erstellen einer einfachen Klasse
+============================================
+
+Erstellen Sie eine Klasse namens "Date" mit den privaten Attributen day, month und year (vom typ int)
+
+Die Klasse soll zwei Konstruktoren besitzen:
+
+Date() -> erstellt ein Objekt vom Typ Date mit day=0, month=0, und year=0
+Date(const char* datestring) -> erstellt ein Objekt vom Typ Date aus einem String im Format "TT-MM-JJJJ"
+
+Ausserdem soll die Klasse getter- und setter-Methoden sowie einen einen Destruktor besitzen. Der Destruktor soll beim Aufruf nur eine Meldung auf die Konsole schreiben. 
+
+a) Erstellen Sie in der main-Funktion einige Date-Objekte auf dem Stack und speichern Sie diese in einem Array
+b) Erstellen Sie in der main-Funktion einige Date-Objekte auf dem Heap und speichern Sie diese in einem Array
+c) Ermitteln Sie das jeweils älteste Datum aus beiden Arrays

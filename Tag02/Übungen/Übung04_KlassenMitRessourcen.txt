@@ -1,0 +1,16 @@
+Übung 01 Klassen mit Ressourcen
+===============================
+
+Erstellen Sie eine Klasse "String" die einen String beliebiger Länge realisiert.
+
+Die Klasse soll folgende Methoden besitzen :
+
+String(const char* chars) - erzeugt ein Objekt der Klasse String und initialisiert
+                            dieses mit der String-Konstanten "chars"
+void printChars() const   - gibt den Inhalt des Strings auf die Konsole aus
+void modifyAt(int index, char c) - schreibt c an die Stelle index im String
+
+Ausserdem soll ( der "rule of three" folgend ) ein Destruktor, ein Copy-Konstruktor und ein überladener Zuweisungsoperator implementiert werden.
+
+
+String s {"ABC"};

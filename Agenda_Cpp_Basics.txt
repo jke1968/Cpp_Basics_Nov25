@@ -1,0 +1,13 @@
+Agenda C++ Basics
+=================
+
+1. Basissyntax, Wiederholung C
+2. Strings
+2. Referenzen
+3. Einfache Klassen
+4. Beziehungen zwischen Klassen I - Assoziation
+5. Beziehungen zwischen Klassen II - Vererbung
+6. Exceptions
+7. Überladen von Operatoren
+8. Templates 
+9. Wichtige Klassen der Standardbibliothek Standardbibliothek
