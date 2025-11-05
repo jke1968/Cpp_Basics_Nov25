@@ -1,0 +1,6 @@
+Übung 06 Function Pointer
+=========================
+
+Eine Person hat eine Nummer und einen Namen.
+
+Schreiben Sie ein C++-Programm, das vom Benutzer Personendaten einliest, diese in einem Array speichert und das Array einmal nach Nummern und einmal nach Namen sortiert ausgibt. Verwenden Sie zum Sortieren die Bibliotheksfunktion "qsort".

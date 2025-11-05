@@ -1,0 +1,9 @@
+Übung 02 Beziehungen zwischen Klassen I - Assoziation
+=====================================================
+
+Schreiben Sie ein C++ Programm, das Personen verwaltet, die einander heiraten können.
+
+Die Personen haben Vornamen,  Nachnamen und Familienstand, der entweder "ledig" oder "verheiratet" sein kann. 
+
+Ausserdem soll für jede Person eine Ausgabe auf die Konsole erzeugt werden können, die den Vornamen, den Nachnamen und den Familienstand umfasst. Falls die Person verheiratet ist, soll auch der Vor- und Nachname des Ehepartners ausgegeben werden. Verheiratete Personen sollen wieder geschieden werden können, der Famlienstand ist dann (der Einfachheit halber) wieder "ledig". Unterstellt ist ausserdem, dass jede Person nur eine andere Person heiraten kann.
+
