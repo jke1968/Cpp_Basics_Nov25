@@ -5,9 +5,10 @@ Agenda C++ Basics
 2. Strings
 2. Referenzen
 3. Einfache Klassen
-4. Beziehungen zwischen Klassen I - Assoziation
-5. Beziehungen zwischen Klassen II - Vererbung
-6. Exceptions
-7. Überladen von Operatoren
-8. Templates 
-9. Wichtige Klassen der Standardbibliothek Standardbibliothek
+4. Klassen mit Ressourcen
+5. Beziehungen zwischen Klassen I - Assoziation
+6. Beziehungen zwischen Klassen II - Vererbung
+7. Exceptions
+8. Überladen von Operatoren
+9. Templates 
+10. Wichtige Klassen der Standardbibliothek

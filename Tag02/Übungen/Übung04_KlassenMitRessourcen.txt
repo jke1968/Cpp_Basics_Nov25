@@ -1,4 +1,4 @@
-Übung 01 Klassen mit Ressourcen
+Übung 04 Klassen mit Ressourcen
 ===============================
 
 Erstellen Sie eine Klasse "String" die einen String beliebiger Länge realisiert.
