@@ -4,6 +4,6 @@ class Person
 {
 public:
 	size_t nr;
-	std::string name;
+	char name[20];
 };
 

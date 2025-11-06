@@ -1,9 +1,13 @@
+#pragma warning (disable: 4996)
 /*
 illustrates the use of function pointers by using qsort
 */
 #include <iostream>
 #include "Person.h"
 #include <stdlib.h>
+#include <algorithm>
+#include <type_traits>
+
 
 constexpr int max_persons = 3;
 
@@ -22,10 +26,7 @@ int compare_person_ptrs_by_name(const void* a, const void* b)
 	const Person** arg1 = (const Person**)a;
 	const Person** arg2 = (const Person**)b;
 
-	if ((*arg1)->name < (*arg2)->name) return -1;
-	if ((*arg1)->name > (*arg2)->name) return 1;
-
-	return 0;
+	return strcmp((*arg1)->name, (*arg2)->name);
 }
 int compare_person_values_by_nr(const void* a, const void* b)
 {
@@ -43,10 +44,7 @@ int compare_person_values_by_name(const void* a, const void* b)
 	const Person* arg1 = (const Person*)a;
 	const Person* arg2 = (const Person*)b;
 
-	if (arg1->name < arg2->name) return -1;
-	if (arg1->name > arg2->name) return 1;
-
-	return 0;
+	return strcmp(arg1->name, arg2->name);
 }
 
 void print_person_ptrs(Person* persons[]) {
@@ -62,12 +60,15 @@ void print_person_values(Person persons[]) {
 
 Person* read_person_from_console() {
 	size_t number = 0;
-	std::string name = "";
+	std::string name_ = "";
+	char name[20];
 	std::cout << "Enter number: ";
 	std::cin >> number;
 	std::cout << "Enter name: ";
 	std::cin >> name;
-	Person* p = new Person{ number,name };
+	Person* p = new Person{};
+	p->nr = number;
+	strcpy(p->name, name);
 	return p;
 }
 
@@ -126,7 +127,8 @@ void sort_person_values()
 }
 
 int main() {
-	sort_person_ptrs();
+	sort_person_values();
+	// sort_person_ptrs();
 	return 0;
 }
 
