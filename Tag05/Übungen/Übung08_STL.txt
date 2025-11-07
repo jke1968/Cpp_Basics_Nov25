@@ -1,0 +1,6 @@
+Übung 08 STL 
+============
+
+Eine Person hat eine Nummer und einen Namen.
+
+Schreiben Sie ein C++-Programm, das vom Benutzer Personendaten einliest, diese in einem std::vector speichert und den vector einmal nach Nummern und einmal nach Namen sortiert ausgibt. Verwenden Sie zum Sortieren die STL-Bibliotheksfunktion "std::sort".
