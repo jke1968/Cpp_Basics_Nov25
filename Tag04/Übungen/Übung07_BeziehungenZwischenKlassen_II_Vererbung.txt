@@ -1,0 +1,19 @@
+Übung 07 : Beziehungen zwischen Klassen II : Vererbung
+======================================================
+
+a)
+
+Erstellen Sie zwei Klassen: eine Klasse "Hotel" (mit den Attributen Name und Address) und eine Klasse "Guest" (mit den Attributen Name und Address). Ein Hotel kann Gäste beherbergen: dazu sollen Funktionen "checkIn", "checkOut" und "printGuestlist" realisiert werden. "checkIn" soll den Gast in das nächste freie Zimmer einmieten, die Methode "printGuestlist" soll alle Zimmer ausgeben und für die belegten Zimmer Name und Adresse des Gastes ausgeben, ansonsten den Hinweis "frei". Zusatz: wenn kein Zimmer mehr frei ist, soll die Funktion checkIn eine "FullyBookedException" erzeugen.
+
+b)
+
+Erzeugen Sie nun ein Objekt vom Typ "Hotel" und mehrere Objekte vom Typ "Guest". Mieten Sie die Gäste in das Hotel ein und geben Sie die Belegung aus.
+
+c) 
+Realisieren Sie zwei Spezialisierungen der Klasse "Guest": eine Klasse "BusinessPartner" (mit dem Attribut discount) und eine Klasse "PrivatePartner" (mit dem Attribut travelAgency). Erzeugen Sie mehrere Objekte dieser Klassen, mieten Sie auch diese ein und lassen Sie sich die Gaesteliste ausgeben. In der Gaesteliste sollen neben dem Namen und der Adresse des Gastes auch (so vorhanden) der Rabatt oder die Reiseagentur erscheinen.
+
+
+
+
+
+  
